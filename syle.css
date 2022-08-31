@@ -1,11 +1,21 @@
-
+#home{
+    height: 110vh;
+    width: 100%;
+    background-image: url(./images/train.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+.hero{
+   text-align: center;
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-top: 25px;
-    padding-top: 8%;
-    padding-right: 8%;
+    padding-top: 8px;
+    padding-right: 8px;
  }
 nav ul li {
     list-style-type: none;
