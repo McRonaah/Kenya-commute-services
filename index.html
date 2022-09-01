@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./syle.css">
-    <title>Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Kenya Railways</title>
 </head>
 <body>
     <div id ="home">
@@ -24,6 +24,8 @@
             </ul>
             <a href="https://www.youtube.com/channel/UCoO82bia4WfA19iLEVUX2iw" target="_blank" class="btn">subscribe</a>
         </nav>
+        <p>Your are probably fanatic for railway services .And for that we want to make it easier for you to book for a tickect anytime you want.</p>
+        <p>We are offering online ticket ordering at an affordable prices,making sure you save your time.</p>
     </div>
 <div id="schedule">
     <table class="table">
@@ -74,23 +76,74 @@
     </table>
 </div>
 <div id="about-us">
+    <h2>About Us</h2>
+    <p>The history of rail transport in Kenya dates back to the period between 1891 and 1895 when raging debates ensued in the British parliament over the necessity of constructing a railway line through a country owned by the Maasai and unlettered African tribesmen.
+        It was laughed off as extremely ridiculous. The cost which was pegged at 5 million pounds was considered exorbitant and earned the line so much resentment in the British parliament and media. 
+        Henry Labouchere, the British politician and perhaps the line’s harshest critic in what is now a famous poem christened the whole venture an act of lunacy.
+   </p>
 
 </div>
 <div id="services">
-    <div class="content">
-        <h4>Hello, my name is</h4>
-        <h1>Ronald <span>Kipchirchir</span></h1>
-        <h3>I`am a  Web Developer.</h3>
-        <div class="newslatter">
-            <form>
-                <input type="email" name="email" id="mail" placeholder="Enter your email">
-                <input type="submit" name="submit" value="Let`s Start">
-
-            </form>
+    <h2>Services</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus rem odit, voluptates deleniti debitis culpa itaque ab molestiae vero unde deserunt enim corporis numquam quisquam aspernatur at provident vel porro?</p>
+    <div card="">
+    
+        <div class="container w-25" id="ticket-attributes">
+            <div class="row">
+                <div class="col">
+                    <h3>Ticket</h3>
+                    <form id="ticket-form">
+                        <div class="form-floating mb-3">
+                            <select class="form-select" aria-label="Default Select Example" id="trainNumber">
+                                <option selected>Train Number</option>
+                                <option value="12235"> 12235 </option>
+                                <option value="12236"> 12236 </option>
+                                <option value="12301"> 12301 </option>
+                                <option value="12302"> 12302 </option>
+                                <option value="12305"> 12305 </option>
+                                <option value="12306"> 12306 </option>
+                            </select>
+                        </div>
+                        <div class="form-floating mb-3">
+                           
+                            <select class="form-select" aria-label="Default select example" id="pizzaSize">
+                                <option selected> Train Name</option>
+                                <option value="dibrugarh-new-delhi-rajdhani-express"> Dibrugarh - New Delhi Rajdhani Express </option>
+                                <option value="new-delhi-dibrugarh-rajdhani-express"> 	New Delhi - Dibrugarh Rajdhani Express </option>
+                                <option value="howrah-new-delhi-rajdhani-express-(via Gaya)"> 	Howrah - New Delhi Rajdhani Express (via Gaya) </option>
+                                <option value="new-delhi-howrah-rajdhani-express-(Via Gaya)"> New Delhi - Howrah Rajdhani Express (Via Gaya) </option>
+                                <option value="howrah-new-relhi-rajdhani-express-(via Patna)"> Howrah - New Delhi Rajdhani Express (via Patna) </option>
+                                <option value="new-delhi-howrah-rajdhani-express-(via Patna)"> New Delhi - Howrah Rajdhani Express (via Patna) </option>
+                            </select>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <select class="form-select" aria-label="Default select example" id="departure">
+                                <option selected> Train Depature Time </option>
+                                <option value="19:25"> 19:25 </option>
+                                <option value="09:25"> 09:25 </option>
+                                <option value="16:55"> 16:55 </option>
+                                <option value="14:05"> 14:05</option>
+                            </select>
+                        </div>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="s-quantity" placeholder="Enter Number of tickets">
+                    <label for="s-quantity"> Quantity </label>
+                </div>
+                <button type="submit" class="btn btn-dark"> Submit Order </button>
+                </form>
+            </div>
+        </div>
         </div>
     </div>
 </div>
 <div id="contact-us">
+    <h2>Contact Us</h2>
+    <div class="likes-section">
+        <span id="like-count" class="likes">0 likes</span>
+        <button id="like-button" class="like-button">♥</button>
+      </div>
+
     <form id="comment-form" class="comment-form">
         <input
           class="comment-input"
@@ -100,12 +153,41 @@
           placeholder="Add a comment..."
         />
         <button class="comment-button" type="submit">Post</button>
+        <br><br>
+        <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ronaldcheruyiot342@gmail.com" target="_blank" id ="contact">ronaldcheruyiot342@gmail.com</a></p>
+           <a href="tel:+254702233145" target="_blank"><em class="lnr lnr-phone-handset"></em> +254702233145 </a> <br>
 </div>
+   
+    <footer>
+        <p>Ronald Kipchirchir</p>
+        <p>More about us please click the subscribe button at top-right above to subscribe to our youtube channel 
+            or follow up with us on the following social profiles:</p>
+        
+            <div class="social">
+            <a href="https://www.linkedin.com/in/ronald-kipchirchir-034983246/" target="_blank">
+                <img src="./images/linkedin.png" alt=""/>
+            </a>
+            <a href="https://www.instagram.com/ronaah_254/" target="_blank"><img src="./images/instagram.jpeg" alt=""></a>
+            <a href="https://github.com/McRonaah" target="_blank">
+                <img src="./images/github.png" alt=""/>
+            </a>
+            </div>
+            <div class="social">
+            <a href="https://twitter.com/RonaahB" target="_blank">
+                <img src="./images/twitter.png" alt=""/>
+            </a>
+            <a href="https://www.facebook.com/ronald.beloved/" target="_blank"><img src="./images/facebook.jpeg" alt=""></a>
+            <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAYFBMVEXyZ5j////yYJTyZJbxWZDxXZL//P3++Pr84urxVo7xU430hqz4tMr+8vb3q8T+9fjybJv95+771OD1lbX5vdD2ob32nLr0gaj5xdb6z9396/Dzd6L0fKX83Obzcp/0jK9ZTFUHAAAHxElEQVR4nO1b53KrOhDGKohuese8/1teSNBKAgnkkjNzZ/z9SmKjXW0vxHG++OKLL7744ov/KTBClKIN60/4H9LGNCBNFbV5ljHXZZmXt1E9+gH9F0xg5D+KMrtp4EVF6v+xJDB9VN5dR/0XcV48/lAOiDbdCfWNh3ag6G/I+7V3Rf0XUxF8ngVEqtiO/Iqs8D+rCExny9uDFBr6QfoItwcKLusX70sWlO0UM/fwefk5ayThwfRYNdDAJz+hiJIlBIxV2+++0w/kI+QxLTUirnaHY0T9NJnUL0WfEAJKJw39GxuPZ2OKhlIx1dx5mwP0kMXfd/BjppUvJmnC5Afe5YA2knW5CQ0EB5FBw5RGsqQeb3kDLST6JV3OwsLURlO0obLTuPMbHMj0+1/HRo2FeDENhSmw+eWwiCT5t3g7RvKJ1uxmKBW6ch8v2gF6CPqS1/lCCSd3wyQRMnjNEnEK9s9GSY9YKOF+JtxAcPCaL1CI/v2gECLCylvfzL8jRcb8BUMkoOt+b+5YJKbGJAOM8psEk8+agWaQ87AngkY4ODMx4Hc3BZrAeQrsQDzTuLsUavRXw/4+fvdPKoHCBSrdkwT0q8sJixOCkqB8LZ/iQChA7+vi89t0/AJtgOwEqnCbZ5RA+QmZ4SlfBNt6ryK/hvjhLVU6j4kaTs30wYUPBgiAWMsC5e8ICfObFvoo5L8V9iGZcAuMjM+gQtihHKVILbLAhFf5US6sLDAddjicCyA+kRoFP5diPR0k7/+lv3RyT4sALKA6eQI/gFK3iYCiSMreHa/HwGknS0cArfWnMpMi8pqUMKGRXAslIkpTrpXBzhFAuAf7ViFqE49gMpRyZX4PpduiavtrayUCPGwX8S5Uhmpx3aaTb3/LU+XZdGM1Tm0YAH61MVD5prZeXpsGosoaEptVceRvYZRdsosGLf3c2XMOBtuZ07f48sisFIYRIYNmUOGF5GhqXFY2OgANnIhr6cacsWh7diAfV1j3mDj02g8ID1z6PIuWdjCdozw7dKML7gk2iI0Ho+jaD4LNaZUqCq9DMRIETpiUuWlOkFXUeLy/KWuyMILtuMqnCwjxfYLTZq4Xyr3u1oDCPzFxHg3dy3yAeabPowVl23leH9+Pyj7iVLqQuy6DIUpOqZyAneV7PGzSu4iuSuNjhTyBgHyWuiDDmxM8l0BuInVAnEdNQAgUBqd1Z7BZ4WU6QFbDKJblSZOin4QbQAN1FmjJdrHLFoXuJz07uCzukmJcki+3JmE1P4djCTIDm2qvMpyDzK4WT21SNDggVB0IIxDBIwioM4YbBocGQeAThBZWOJvGTubAAGMu6/tsmrq2TKrwsRxG9FN5KvXBB4H1UxtV84MEzzKQOGm6Zo51GUApwmb3xX5zGSZYnG+qZZdGuDFgWUBiisPDgPCUFVsJXAaM38vj6BnqC/oPMoDIbB80OC5tgLthcvVFTIon59c/uHbD7dSrxI1G/e3vXldG9Q+qqOy8+K769XUg2s7tTltJZEwZ4eKsFJZpxCdpWMkrpstQzE8+bUr8whiuju38UkQFfsPrrOtktAUM96QiTHfjl1sWQYVuKDtRamvcUDkY5wlkVj3PzeelK4ScqM9I8LnFrGj7pim7k0ohf2ubYD0z5ZWi3ngQbySva0KeXTuttWCkir9Mty4AiulYz/amIu96RsBPYjpeUaq0Ip3YUuLzQQjdPrQoy6GH0BgBGuSS3AuVjQxnTTfWAhMork3gpDVDD2UAQJSrQmTQiY5P/azaY96cHpSJBon+oQPF0KmGh1tiPnfPLfoSoYOdMtEotkduddyHEa6e8mAEULJYJXko4T3ljmgQ9PtRY0ugg+you80+YrvVBY9qrixLWf+5o+2AIRbttwMwSrEb0Yg57CScVgw8zaN3whPEPobBjsVySOUg/oDo5rHw//3OVDDAY9Qu5YIAJts5IVT6GTdaOPvGamOeBkK96mxgnVZl3u8jTH1EFN5uYa4TMJipEsNgThnb+KCjEnTT9ShpV3i6hSS8RpPrOREf7AUgDWtXdWLIdLfi1IzFTFa6KzSbnr0AZJdKiDSWvlg9QULqxd/E7it8aoEKKxs39KEA0GdoCVxUIoKIm1jGALhMCj3iyH+6LOmFrHgkQCmnHz+7QJYWEopBnjPAjXcri5CwHuOC0Qiyf2/FwojB4u8/MRQ9xM7shddJsDqHtZnwOZRJ0pLKJ9tVhcqAnP5vrlUcp7w6X/KuJP/4Wns6oFFqPxIrGULxG1EiVossfdoAtuPEGUsIsLkEmG4XiIWO+7wBcpBKyEBfBBzALy12Geydl0jkLoTVFi+oBYd3rt56iWXtwyQ78ObgigWybxvZuy+1oVH2hSm8eFmR7kbN8av2J3Gg7mWmwjG/IIapo84Npvfpr6NPNSb25ejT47xwfZutadVlxqfe6CP7eQRrq5H8zC3RuktZlyl0rLrdt+7hZ17nc3QjiZvLsi6q6nqei7qKOs0ypdWur14EpoX2VWIzvPnDr/cimtjsbTbENfng9TdQklhORb3qD8ivQGieThdnK1h+FSveY2GovBNV3Kfqr96r5sDIH6tWu7uM23r465fbNx5I4MxJmXs9cxew3uvKJMQB+af/ZIDg3xt+/8PhH9L+4osvvvjiiy8+i/8Al9dYVGsIMwIA
+            AAAASUVORK5CYII=" alt=""></a>
+            </div>
+            <br>
+            <br>
+        <p class="end">CopyRight By Ronald Kipchirchir</p>
+    </footer>
     <script
-  src="https://code.jquery.com/jquery-3.6.1.min.js"
-  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-  crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
-
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+      <script src="./index.js"></script>
 </body>
 </html>

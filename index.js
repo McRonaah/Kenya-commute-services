@@ -1,20 +1,28 @@
-// function displayComments(comments) {
-//     commentsList.innerHTML = "";
-//     comments.forEach(displayComment)
+
+
+// const input = document.getElementById('comment-form');
+// function addingEventListener() {
+//     input.addEventListener("submit",addingEventListener)
 // }
-// function displayComment(comment) {
-//     const newComment = document.createElement('li');
-//     newComment.textContent = comment.content;
-//     commentsList.append(newComment);
+
+// function addingEventListener() {
+//     const input = document.getElementById('comment-form');
+
+// function clickAlert() {
+//   alert('I was clicked!');
 // }
-// function addNewComment() {
-//     commentsList.addEventListener('submit', addComment)
+
+// input.addEventListener('click', clickAlert);
+
 // }
-// function addComment(event) {
-//     event.preventDefault();
-//     const newPostedComment = event.target.comment.value;
-//     displayComment({ content: newPostedComment });
-//     event.target.reset();
+
+// function addingEventListener(){
+//     const post =document.getElementsById("input")
+//     function post(){
+//         post('submit')
+//     }
+
+//     input.addEventListener('post',submitted)
 // }
 
 function renderTrainRow(train){
@@ -30,6 +38,15 @@ function renderTrainRow(train){
     `;
     document.querySelector('.table').appendChild(row)
 }
+
+var counter = 0;
+const likesCounter = document.querySelector("#like-count");
+const likesButton = document.querySelector("#like-button");
+likesButton.addEventListener("click", function () {
+    counter += 1;
+    likesCounter.innerHTML = counter + " likes";
+});
+
 
 
 function getAllTrains(){const options = {
