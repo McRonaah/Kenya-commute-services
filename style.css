@@ -1,4 +1,5 @@
 #home{
+  background-image: url(./images/railway_station_kenya.jpg);
 }
 .hero{
    text-align: center;
@@ -53,21 +54,9 @@ nav ul li {
 
   margin-top: 30px;
 }
-#location{
-  margin-top: 30px;
-  display: none;
-}
-.checkout-message{
-  height: 50px;
-  background-color: red;
-  font-size: xx-large;
-  font-weight: 700;
-  color: green;
-  margin-top: 30px;
+#table-order{
   padding-top: 20px;
-  border-radius: 6px;
 }
-
 
 #contact-us{
   text-align: center;
@@ -174,3 +163,6 @@ footer p:nth-child(2){
   bottom: 35px;
   font-size: 14px;
 }
+/* #table-order{
+  display: none;
+} */

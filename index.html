@@ -126,7 +126,7 @@
                         </div>
                         <div class="form-floating mb-3">
                             <select class="form-select" aria-label="Default select example" id="departure">
-                                <option selected> Train Depature Time </option>
+                                <option selected> Departure </option>
                                 <option value="19:25"> 19:25 </option>
                                 <option value="09:25"> 09:25 </option>
                                 <option value="16:55"> 16:55 </option>
@@ -149,7 +149,7 @@
                     <tr>
                         <th scope="col"> Train Number </th>
                         <th scope="col"> Train Name </th>
-                        <th scope="col"> Train Departure Time </th>
+                        <th scope="col"> Departure </th>
                         <th scope="col"> No. of Tickets </th>
                         <th scope="col"> Price </th>
                     </tr>
@@ -164,6 +164,15 @@
                     </tr>
                 </tbody>
             </table>
+            <div>
+                <p>Enter your details in the fields below,after your order then press the "Submit form" button to submit your details.</p>
+
+                <form id="myForm" action="/action_page.php">
+                First name: <input type="text" name="fname"><br>
+                Last name: <input type="text" name="lname"><br><br>
+                <input type="button" onclick="myFunction()" value="Submit form">
+                </form>
+            </div>
         </div>
     </div>
 </div>
@@ -186,6 +195,8 @@
         <br><br>
         <p>Let's talk</p><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ronaldcheruyiot342@gmail.com" target="_blank" id ="contact">ronaldcheruyiot342@gmail.com</a></p>
            <a href="tel:+254702233145" target="_blank"><em class="lnr lnr-phone-handset"></em> +254702233145 </a> <br>
+           <!-- <p>Click oh this click me to let us know how efficient the services provided were.</p>
+           <p id="demo">Click me.</p> -->
 </div>
    
     <footer>

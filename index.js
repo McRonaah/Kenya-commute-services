@@ -25,6 +25,24 @@
 //     input.addEventListener('post',submitted)
 // }
 
+document.addEventListener("DOMContentLoaded",() => {
+    getAllTrains();
+    document.querySelector("#table-order").addEventListener("submit", (e) => {
+        e.preventDefault();
+        let form =e.target;
+    });
+});
+
+document.getElementById("demo").addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+}
+
+function myFunction() {
+    document.getElementById("myForm").submit();
+  }
+
 function renderTrainRow(train){
     console.log(train)
     let row =document.createElement('tr');
@@ -47,8 +65,6 @@ likesButton.addEventListener("click", function () {
     likesCounter.innerHTML = counter + " likes";
 });
 
-
-
 function getAllTrains(){const options = {
 	method: 'POST',
 	headers: {
@@ -68,7 +84,8 @@ fetch('https://trains.p.rapidapi.com/', options)
 	.catch(err => console.error(err));
 }
 
-function initialize(){
-    getAllTrains()
-}
-initialize();
+// function initialize(){
+//     getAllTrains()
+// }
+// initialize();
+
