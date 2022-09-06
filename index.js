@@ -1,29 +1,6 @@
 
 
-// const input = document.getElementById('comment-form');
-// function addingEventListener() {
-//     input.addEventListener("submit",addingEventListener)
-// }
 
-// function addingEventListener() {
-//     const input = document.getElementById('comment-form');
-
-// function clickAlert() {
-//   alert('I was clicked!');
-// }
-
-// input.addEventListener('click', clickAlert);
-
-// }
-
-// function addingEventListener(){
-//     const post =document.getElementsById("input")
-//     function post(){
-//         post('submit')
-//     }
-
-//     input.addEventListener('post',submitted)
-// }
 
 document.addEventListener("DOMContentLoaded",() => {
     getAllTrains();

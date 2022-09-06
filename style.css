@@ -1,6 +1,6 @@
-/* #home{
-  background-image: url(./images/railway_station_kenya.jpg);
-} */
+#home{
+ padding: 20px;
+}
 .hero{
    text-align: center;
 }
