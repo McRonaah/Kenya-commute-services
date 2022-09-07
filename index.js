@@ -11,26 +11,7 @@ document.addEventListener("DOMContentLoaded",() => {
 });
 
 
-const fom = document.querySelector("#myForm");
-fom.addEventListener("submit",forme)
-function forme(event){
-    event.preventDefault()
-    const firstName = document.querySelector("#fname").value;
-    const lastName = document.querySelector("#lname").value;
-    const messages = document.querySelector("#messages").value;
-    if(firstName == ""){
-        return alert("please fill in your first name")
-    }else if(lastName == ""){
-       return alert("please enter your last name")
-    }else{
-        alert("thank you" + " " + "," + firstName + " " + lastName + "we have recieved your details");
-    }
-    return fom.reset()
-}
-
-
 document.getElementById("demo").addEventListener("click", myFunction);
-
 function myFunction() {
   document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
 }
@@ -81,4 +62,3 @@ fetch('https://trains.p.rapidapi.com/', options)
 //     getAllTrains()
 // }
 // initialize();
-

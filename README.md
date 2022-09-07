@@ -3,6 +3,10 @@
 This project deals with giving railway day to day timetable.
 For one to travel he/she has to go through the railway schedule then order for tickets.
 
+# Author
+-Ronald Kipchirchir.
+
+
 # Project-feature
 
 # Built-with
@@ -20,4 +24,8 @@ For one to travel he/she has to go through the railway schedule then order for t
 
 # Deliverables
 
-    
+# Contacts.
+Below you will find our contact information:
+Call / Message; +254 702233145
+E-mail; ronaldcheruiyot342@gmail.com
+Fax; +1(001122698791) 
