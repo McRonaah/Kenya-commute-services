@@ -7,7 +7,19 @@ document.addEventListener("DOMContentLoaded",() => {
 });
 
 
-
+const train_num = 12235
+const trainName = "Dibrugarh - New Delhi Rajdhani Express"
+const departTime = 1925
+const trains = [
+    {train_num:12236, trainName: "New Delhi - Dibrugarh Rajdhani Express",  departTime: 0925,},
+  {train_num:12301, trainName: "Howrah - New Delhi Rajdhani Express (via Gaya)",  departTime:1655 ,},
+   {train_num:12302, trainName: "New Delhi - Howrah Rajdhani Express (Via Gaya)", departTime:1655,},
+   {train_num:12305, trainName: "	Howrah - New Delhi Rajdhani Express (via Patna)",  departTime:1405,},
+   {train_num:12306, trainName: "	New Delhi - Howrah Rajdhani Express (via Patna)",  departTime:1655,}  
+]
+let train = {train_num, trainName, departTime}
+trains.push(train);
+console.log(trains);
 
 
 document.getElementById("demo").addEventListener("click", myFunction);
@@ -56,6 +68,25 @@ fetch('https://trains.p.rapidapi.com/', options)
     })
 	.catch(err => console.error(err));
 }
+
+var tickets = [];
+
+document.getElementById("ticket-form").addEventListener("submit", submitOrder);
+function submitOrder(event){
+    event.preventDefault();
+    // var trainNo = document.getElementById('trainNumber').value;
+    // var trainName = document.getElementById('trainName').value;
+    // var departure = document.getElementById('departure').value;
+    // var ticket = {
+    //     trainNo,
+    //     trainName,
+    //     departure
+    // };
+    // tickets.push(ticket);
+    // console.log('tickets', tickets)
+}
+
+
 
 // function initialize(){
 //     getAllTrains()
