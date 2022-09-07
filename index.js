@@ -74,16 +74,16 @@ var tickets = [];
 document.getElementById("ticket-form").addEventListener("submit", submitOrder);
 function submitOrder(event){
     event.preventDefault();
-    // var trainNo = document.getElementById('trainNumber').value;
-    // var trainName = document.getElementById('trainName').value;
-    // var departure = document.getElementById('departure').value;
-    // var ticket = {
-    //     trainNo,
-    //     trainName,
-    //     departure
-    // };
-    // tickets.push(ticket);
-    // console.log('tickets', tickets)
+    var trainNo = document.getElementById('trainNumber').value;
+    var trainName = document.getElementById('trainName').value;
+    var departure = document.getElementById('departure').value;
+    var ticket = {
+        trainNo,
+        trainName,
+        departure
+    };
+    tickets.push(ticket);
+    console.log('tickets', tickets)
 }
 
 
