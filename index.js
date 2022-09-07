@@ -22,6 +22,21 @@ trains.push(train);
 console.log(trains);
 
 
+// document.getElementById("myForm").addEventListener("alert", nameFunction) 
+// function nameFunction();{
+// document.getElementById("myForm").alert="The form was submitted successfully";
+// }
+
+
+const input = document.getElementById('myForm');
+
+function clickAlert() {
+  alert('Your details has been submitted successfully');
+}
+
+input.addEventListener('click', clickAlert);
+
+
 document.getElementById("demo").addEventListener("click", myFunction);
 function myFunction() {
   document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
@@ -86,7 +101,17 @@ function submitOrder(event){
     console.log('tickets', tickets)
 }
 
+function renderTickets(ticket){
+    console.log(ticket)
+    let row =document.createElement('tr');
+    row.innerHTML=`
+    <td>${tickets.trainNo}</td>
+    <td>${ticket.trainName}</td>
+    <td>${ticket.departure}</td>
 
+    `;
+    document.querySelector('.table').appendChild(row)
+}
 
 // function initialize(){
 //     getAllTrains()
