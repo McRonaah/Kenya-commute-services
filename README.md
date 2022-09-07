@@ -14,10 +14,9 @@ For one to travel he/she has to go through the railway schedule then order for t
 # Getting started 
 1. Clone this repository to your machine: git clone https://github.com/McRonaah/Kenya-commute-services.git
 
-2. Change the directory into the project directory: cd Kenya-commute-services
+2. Change the directory into the project directory: cd Kenya-commute-services.
 
-3.To  Run: code . 
-4.
+3. To open the files run: browse .
 
 # Deliverables
 
