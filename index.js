@@ -1,7 +1,3 @@
-
-
-
-
 document.addEventListener("DOMContentLoaded",() => {
     getAllTrains();
     document.querySelector("#table-order").addEventListener("submit", (e) => {
@@ -9,6 +5,9 @@ document.addEventListener("DOMContentLoaded",() => {
         let form =e.target;
     });
 });
+
+
+
 
 
 document.getElementById("demo").addEventListener("click", myFunction);
