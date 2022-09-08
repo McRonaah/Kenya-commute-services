@@ -28,7 +28,7 @@ console.log(trains);
 // }
 
 
-const input = document.getElementById('myForm');
+const input = document.getElementById('myForm').addEventListener("click", clickAlert);
 
 function clickAlert() {
   alert('Your details has been submitted successfully');
