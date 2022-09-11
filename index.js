@@ -57,7 +57,6 @@ likesButton.addEventListener("click", function () {
     likesCounter.innerHTML = counter + " likes";
 });
 }
-
 function getAllTrains(){const options = {
 	method: 'POST',
 	headers: {
