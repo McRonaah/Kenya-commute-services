@@ -28,9 +28,6 @@ function clickAlert() {
   alert('Your details has been submitted successfully');
 }
 
-input.addEventListener('click', clickAlert);
-
-
 document.getElementById("demo").addEventListener("click", myFunction);
 function myFunction() {
   document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
