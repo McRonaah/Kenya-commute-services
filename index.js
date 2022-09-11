@@ -22,13 +22,13 @@ trains.push(train);
 console.log(trains);
 
 
-// const input = document.getElementById('myForm').addEventListener("click", clickAlert);
+const input = document.getElementById('myForm').addEventListener("click", clickAlert);
 
-// function clickAlert() {
-//   alert('Your details has been submitted successfully');
-// }
+function clickAlert() {
+  alert('Your details has been submitted successfully');
+}
 
-// input.addEventListener('click', clickAlert);
+input.addEventListener('click', clickAlert);
 
 
 document.getElementById("demo").addEventListener("click", myFunction);
