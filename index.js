@@ -51,6 +51,7 @@ function renderTrainRow(train){
     document.querySelector('.table').appendChild(row)
 }
 
+function addLikes(){
 var counter = 0;
 const likesCounter = document.querySelector("#like-count");
 const likesButton = document.querySelector("#like-button");
@@ -58,6 +59,7 @@ likesButton.addEventListener("click", function () {
     counter += 1;
     likesCounter.innerHTML = counter + " likes";
 });
+}
 
 function getAllTrains(){const options = {
 	method: 'POST',
