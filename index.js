@@ -28,7 +28,7 @@ function clickAlert() {
   alert('Your details has been submitted successfully');
 }
 
-input.addEventListener('click', clickAlert);
+// input.addEventListener('click', clickAlert);
 
 
 document.getElementById("demo").addEventListener("click", myFunction);
